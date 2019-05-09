@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Талышкин](https://up.htmlacademy.ru/htmlcss/25/user/1064983).
-* Наставник: [Анна Пономарёва] (https://up.htmlacademy.ru/htmlcss/25/user/153610).
+* Наставник: [Анна Пономарёва](https://up.htmlacademy.ru/htmlcss/25/user/153610).
 
 ---
 

@@ -6,7 +6,66 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <header class="main-header">
+      <a class="main-header-logo">
+            <img src="img/index-logo.svg" width="368" height="153" alt="Логотип City Sedona»">
+          </a>
+      <nav class="main-navigation">
+        <ul class="site-navigation">
+            <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+            <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
+            <li><a href="maps.html">КАРТА ШТАТА</a></li>
+            <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+      </ul>
+    </nav>
 
-  </body>
+    <div class="page-header__logo">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+              <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+              <img class="page-header__top-logo" src="img/logo-sedona-mobile.svg" alt="City of Sedona">
+            </picture>
+            <img class="page-header__title-image" src="img/text-sedona-index.svg" width="460" height="350" alt="Welcome to the gargeous Sedona">
+          </div>
+
+      </header>
+
+      <main class="page-content">
+
+        <section class="page-intro  page-intro-decorated">
+          <h2 class="page-intro_header">Седона ‒ небольшой городок в аризоне, заслуживающий большего!</h2>
+          <p class="page-intro_content">Рассмотрим 5 причин, по которым Седона круче чем Гранд Каньон!</p>
+        </section>
+
+        <section class="hotel-search-dialog">
+        <h2 class="hotel-search-dialog__header">Заинтересовались?</h2>
+        <p class="hotel-search-dialog__content">
+          Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне
+        </p>
+
+    </main>
+
+    <footer class="page-footer">
+          <h2 class="page-footer__header">#visitsedona</h2>
+          <p class="page-footer__social">
+            <span class="social-links">
+            <a class="social-link" href="http://twitter.com">
+              Мы в Твиттере
+            </a>
+            <a class="social-link" href="http://facebook.com">
+              Мы в Фейсбуке
+            </a>
+            <a class="social-link" href="http://youtube.com">
+              Мы на Ютубе
+          </a>
+          </span>
+          </p>
+          <p class="page-footer__copyright">
+            <a class="page-footer__copyright-link" href="https://htmlacademy.ru">
+              WEBSITE BY
+            </a>
+          </p>
+        </footer>
+
+      </body>
 </html>

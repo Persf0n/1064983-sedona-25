@@ -17,7 +17,7 @@
               <li class="menu-item">  <a class="menu-link" href="#">  Информация  </a>  </li>
               <li class="menu-item">  <a class="menu-link" href="#">  Фото и видео  </a>  </li>
               <li class="menu-item">  <a class="menu-link" href="#">  Карта штата </a> </li>
-              <li class="menu-item">  <a class="menu-link active">  Гостиницы </a> </li>
+              <li class="menu-item">  <a class="menu-link" href="hotels.html">  Гостиницы </a> </li>
             </ul>
           </nav>
 
@@ -44,8 +44,48 @@
             <b class="search-hotels-title"> Заинтересовались? </b>
             <p class="search-hotels-description"> Укажите предполагаемые даты поездки&#44; <br/> и мы покажем вам лучшие предложения гостиниц в Cедоне  </p>
             <a class="search-hotels-btn" href="#">  Поиск гостиницы в Седоне  </a>
+
+          <!-- Модальное окно "Поиск гостиницы" -->
+          <div class="modal-content modal-search-hotels">
+            <form action="#" method="post">
+              <div class="arrive-date">
+                <label for="arrive-date">Дата заезда:</label>
+                <div class="modal-input-container">
+                  <input type="text" name="arrive-date" id="arrive-date" value="24 Апреля 2016">
+                  <button class="calendar" type="button" title="Календарь">Календарь</button>
+                </div>
+              </div>
+              <div class="departure-date">
+                <label for="departure-date">Дата отъезда:</label>
+                <div class="modal-input-container">
+                  <input type="text" name="departure-date" id="departure-date" value="4 июля 2016">
+                  <button class="calendar" type="button" title="Календарь">Календарь</button>
+                </div>
+              </div>
+              <div class="adults">
+                <label for="adults">Взрослые:</label>
+                <div class="quantity-controls">
+                  <button class="quantity-less" type="button" title="Меньше">Меньше</button>
+                  <input type="text" name="adults" id="adults" value="2">
+                  <button class="quantity-more" type="button" title="Больше">Больше</button>
+                </div>
+              </div>
+              <div class="children">
+                <label for="children">Дети:</label>
+                <div class="quantity-controls">
+                  <button class="quantity-less" type="button" title="Меньше">Меньше</button>
+                  <input type="text" name="children" id="children" value="0">
+                  <button class="quantity-more" type="button" title="Больше">Больше</button>
+                </div>
+              </div>
+              <button class="btn modal-search-btn" type="submit">
+                Найти
+              </button>
+            </form>
+          </div><!-- Конец модального окна "Поиск гостиницы"-->
           </section>
-          <!-- Здесь будет окно "Поиск гостиницы" -->
+
+<div class="map" id="map"></div>
 
         </main>
 

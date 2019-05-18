@@ -9,9 +9,9 @@
       <div class="shadow-container">
 
         <header class="main-header">
-
-          <a class="logo-link" href="index.html"> <img class="logo-picture" src="img/logo.svg" width="140" height="71" alt="Sedona">  </a>
-
+          <a class="header-logo">
+           <img class="logo-picture" src="img/logo.svg" width="140" height="71" alt="Sedona">
+         </a>
           <nav class="menu">
             <ul class="menu-list">
               <li class="menu-item">  <a class="menu-link" href="#">  Информация  </a>  </li>
@@ -41,26 +41,25 @@
           <!-- Конец статьи "Причины" -->
 
           <section class="search-hotels">
+            <h2 class="visually-hidden">Преимущества города Седона</h2>
             <b class="search-hotels-title"> Заинтересовались? </b>
             <p class="search-hotels-description"> Укажите предполагаемые даты поездки&#44; <br/> и мы покажем вам лучшие предложения гостиниц в Cедоне  </p>
             <a class="search-hotels-btn" href="#">  Поиск гостиницы в Седоне  </a>
 
           <!-- Модальное окно "Поиск гостиницы" -->
           <div class="modal-content modal-search-hotels">
-            <form action="#" method="post">
+            <form action="https://echo.htmlacademy.ru" name="form-search-hotels" method="POST">
               <div class="arrive-date">
                 <label for="arrive-date">Дата заезда:</label>
-                <div class="modal-input-container">
-                  <input type="text" name="arrive-date" id="arrive-date" value="24 Апреля 2016">
-                  <button class="calendar" type="button" title="Календарь">Календарь</button>
-                </div>
+                  <input type="text" name="arrive-date" id="arrive-date" value="24 Апреля 2017">
+                  <span class="visually-hidden">ссылка календаря</span>
+                  <a class="calendar" href="#" title="Календарь">Календарь</a>
               </div>
               <div class="departure-date">
                 <label for="departure-date">Дата отъезда:</label>
-                <div class="modal-input-container">
-                  <input type="text" name="departure-date" id="departure-date" value="4 июля 2016">
-                  <button class="calendar" type="button" title="Календарь">Календарь</button>
-                </div>
+                  <input type="text" name="departure-date" id="departure-date" value="4 июля 2017">
+                  <span class="visually-hidden">ссылка календаря</span>
+                  <a class="calendar" href="#" title="Календарь">Календарь</a>
               </div>
               <div class="adults">
                 <label for="adults">Взрослые:</label>
@@ -85,7 +84,9 @@
           </div><!-- Конец модального окна "Поиск гостиницы"-->
           </section>
 
-<div class="map" id="map"></div>
+          <section class="mapofsedona">
+                  <span class="visually-hidden">Седона на карте</span>
+                </section>
 
         </main>
 
@@ -93,12 +94,12 @@
 
           <div class="footer-hashtag">#visitsedona</div>
           <ul class="footer-social">
-            <li class="btn-social btn-Twitter"> <a class="social-Twitter" href="#"> Twitter </a>  </li>
-            <li class="btn-social btn-Facebook">  <a class="social-facebook" href="#">  Facebook  </a>  </li>
-            <li class="btn-social btn-youtube"> <a class="social-youtube" href="#"> Youtube </a>  </li>
+            <li class="btn-social btn-Twitter"> <a class="social-Twitter" href="#" aria-label="Седона в Твиттере"> Twitter </a>  </li>
+            <li class="btn-social btn-Facebook">  <a class="social-facebook" href="#" aria-label="Седона на фэйсбуке">  Facebook  </a>  </li>
+            <li class="btn-social btn-youtube"> <a class="social-youtube" href="#" aria-label="Седона в ютубе"> Youtube </a>  </li>
           </ul>
           <div class="footer-designed">
-            <a class="footer-designed-link" href="https://htmlacademy.ru">Website by
+            <a class="footer-designed-link" href="https://htmlacademy.ru" aria-label="ссылка для перехода на страницу HTML академии">Website by
               <img class="html-academy-logo"src="img/logo-htmla.svg" width="115" height="41" alt="htmlacademy-logo">
             </a>
           </div>

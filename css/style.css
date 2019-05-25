@@ -123,10 +123,10 @@ img {
   margin: 0;
   padding: 0;
   font-size: 0;
-  background-color: #81b3d2;
   background: url("../img/welcome.png") no-repeat 370px 75px,
     url("../img/phoon-frame.svg")no-repeat 0 450px,
     url("../img/background-photo.jpg") no-repeat 0 -80px;
+  background-color: #81b3d2;
 }
 
 .best-reasons {
@@ -439,7 +439,7 @@ img {
   display: flex;
 }
 
-.hotel-foto {
+.hotel-photo {
   height: 90px;
 }
 
@@ -545,27 +545,27 @@ img {
   margin: 0;
 }
 
-.button-abouthotel:hover,
-.button-abouthotel:focus {
+.hotel-button-blue:hover,
+.hotel-button-blue:focus {
   background-color: #669ebf;
 }
 
-.button-abouthotel:active {
+.hotel-button-blue:active {
   background-color: #5596be;
   color: #94b9d3;
 }
 
-.button-book {
+.hotel-button-brown {
   min-width: 110px;
   background-color: #766357;
 }
 
-.button-book:hover,
-.button-book:focus {
+.hotel-button-brown:hover,
+.hotel-button-brown:focus {
   background-color: #604e44;
 }
 
-.button-book:active {
+.hotel-button-brown:active {
   background-color: #503e33;
   color: rgba(255, 255, 255, 0.3);
 }
@@ -628,7 +628,7 @@ img {
   margin: 0 auto;
 }
 
-.social-buttons {
+.social-button {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
